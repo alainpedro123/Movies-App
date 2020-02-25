@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Movies-App/static/css/main.b70bc6cc.chunk.css",
+    "main.js": "/Movies-App/static/js/main.640c8dab.chunk.js",
+    "main.js.map": "/Movies-App/static/js/main.640c8dab.chunk.js.map",
+    "runtime-main.js": "/Movies-App/static/js/runtime-main.33767395.js",
+    "runtime-main.js.map": "/Movies-App/static/js/runtime-main.33767395.js.map",
+    "static/css/2.b7670477.chunk.css": "/Movies-App/static/css/2.b7670477.chunk.css",
+    "static/js/2.1374f69a.chunk.js": "/Movies-App/static/js/2.1374f69a.chunk.js",
+    "static/js/2.1374f69a.chunk.js.map": "/Movies-App/static/js/2.1374f69a.chunk.js.map",
+    "index.html": "/Movies-App/index.html",
+    "precache-manifest.19c872ead6989148c9977587881d9aec.js": "/Movies-App/precache-manifest.19c872ead6989148c9977587881d9aec.js",
+    "service-worker.js": "/Movies-App/service-worker.js",
+    "static/css/2.b7670477.chunk.css.map": "/Movies-App/static/css/2.b7670477.chunk.css.map",
+    "static/css/main.b70bc6cc.chunk.css.map": "/Movies-App/static/css/main.b70bc6cc.chunk.css.map",
+    "static/media/font-awesome.css": "/Movies-App/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33767395.js",
+    "static/css/2.b7670477.chunk.css",
+    "static/js/2.1374f69a.chunk.js",
+    "static/css/main.b70bc6cc.chunk.css",
+    "static/js/main.640c8dab.chunk.js"
+  ]
+}
