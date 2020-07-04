@@ -1,0 +1,30 @@
+.page-link{
+    cursor: pointer;
+}
+
+.list-group{
+    cursor: pointer;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    @media screen and (max-width: 800px){ 
+        font-size: smaller;
+        margin-right: 80px;
+        margin-left: 50px;
+    }
+}
+
+.movies-app{
+    margin-top: 10px;
+}
+
+.new-movie{
+    margin-bottom: 20px;
+}
+
+.movies-app{
+    @media screen and (max-width: 800px){ 
+        text-align: center;
+    }
+}

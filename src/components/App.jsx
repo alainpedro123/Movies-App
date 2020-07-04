@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import MoviesApp from './MoviesApp';
-import MovieForm from './MovieForm';
-import NotFound from "./NotFound";
+import MoviesApp from '../pages/MoviesApp';
+import MovieForm from '../pages/MovieForm';
+import NotFound from "../pages/NotFound";
 
 class App extends Component {
   render() {
@@ -10,11 +10,11 @@ class App extends Component {
       <div>
         <main className="container">
           <Switch>
+            <Route exact path="/" component={MoviesApp} />
             <Route path="/movies/:id" component={MovieForm} />
-            <Route path="/movies" component={MoviesApp} />
-            <Route path="/not-found" component={NotFound}/>
-            <Redirect from="/" exact to="/movies"/>
-            <Redirect to="/not-found"/>
+            <Route path="/not-found" component={NotFound} />
+            <Redirect from="/" exact to="/movies" />
+            <Redirect to="/not-found" />
           </Switch>
         </main>
       </div>
